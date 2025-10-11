@@ -50,5 +50,7 @@ def load_split(split_name):
 
     print(f"Loaded {len(x)} images from {split_name} split.")
     return x, y
-
+x_train, x_test, y_train, y_test = train_test_split(
+    x, y, test_size=0.2, random_state=42
+)
 
