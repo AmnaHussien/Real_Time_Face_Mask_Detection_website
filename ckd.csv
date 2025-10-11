@@ -1,0 +1,145 @@
+Patients,GFR,Sex,Age,Placeofresidency,Education,Marriagestatus,Job,Historyofdiabetes,HistoryofHTN,Historyofcardiovasculardiseases,Historyofkidneydiseases,Familyhistoryofkidneydiseases,Historyofsmoking,Autoimmunediseases,Hypothyroidism,HistoryofUTI,Historyofsurgeryduetoillnessoraccident,Lowbirthweight,Historyofburns,Historyofkidneypain,Historyofchemotherapy,Historyoftakingdrugsforweightloss,Historyoftaking0nsteroidalantiinflammatorydrugs,Historyoftakingantibiotic
+Cases,28,Male,70,Rural,Illiterate or elementary,Single,Employed,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,Not at all,No,Yes,No,Never
+Controls,72,Female,20,Urban,Middle school,Married,Unemployed,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,Seldom,No,No,Yes,Rarely
+Controls,73,Female,73,Urban,High School,Married,Unemployed,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Sometimes,No,No,No,Sometime
+Controls,70,Female,70,Urban,College,Married,Unemployed,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Mostly,Yes,Yes,Yes,Frequently
+Controls,71,Female,71,Urban,College,Married,Unemployed,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,No,No,No,Mostly,No,No,Yes,Frequently
+Controls,72,Female,72,Urban,College,Married,Unemployed,Yes,No,No,No,Yes,Yes,No,No,No,Yes,No,No,Mostly,No,Yes,No,Frequently
+Controls,72,Female,72,Urban,College,Married,Unemployed,No,Yes,No,No,No,No,No,No,Yes,Yes,No,No,Mostly,No,No,Yes,Frequently
+Controls,72,Female,72,Urban,College,Married,Unemployed,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,Mostly,No,No,Yes,Frequently
+Controls,72,Female,72,Urban,College,Married,Unemployed,Yes,No,No,Yes,No,No,No,No,No,No,No,No,Mostly,No,No,Yes,Frequently
+Cases,29,Female,70,Urban,College,Married,Unemployed,No,No,No,No,No,No,No,No,No,No,No,No,Mostly,Yes,Yes,Yes,Frequently
+Controls,77,Female,77,Urban,College,Married,Unemployed,No,No,Yes,Yes,No,No,No,No,No,No,No,No,Mostly,No,No,Yes,Frequently
+Cases,30,Female,30,Urban,College,Married,Unemployed,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,Mostly,No,Yes,Yes,Frequently
+Controls,78,Male,78,Urban,College,Married,Unemployed,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,Mostly,No,Yes,No,Frequently
+Controls,79,Male,79,Urban,College,Married,Unemployed,No,Yes,No,No,Yes,No,No,No,No,No,No,No,Mostly,No,No,No,Frequently
+Controls,79,Male,79,Urban,College,Married,Unemployed,No,No,Yes,Yes,No,No,No,No,No,Yes,Yes,No,Mostly,No,Yes,No,Frequently
+Controls,79,Male,79,Urban,College,Married,Unemployed,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Mostly,Yes,Yes,No,Frequently
+Controls,79,Male,79,Urban,College,Married,Employed,No,No,No,No,Yes,No,No,No,No,Yes,No,No,Mostly,No,No,Yes,Frequently
+Cases,31,Male,31,Urban,College,Married,Employed,Yes,Yes,No,No,Yes,No,No,Yes,No,Yes,Yes,No,Sometimes,No,No,Yes,Frequently
+Controls,70,Male,70,Urban,High School,Married,Employed,No,No,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Sometimes,Yes,Yes,No,Sometime
+Controls,71,Male,71,Rural,High School,Married,Employed,Yes,No,No,No,No,No,No,No,No,No,No,No,Mostly,No,No,No,Sometime
+Controls,71,Male,71,Rural,High School,Married,Employed,No,No,No,No,Yes,No,No,No,Yes,No,Yes,Yes,Mostly,No,Yes,No,Sometime
+Cases,32,Male,32,Rural,High School,Married,Employed,Yes,Yes,No,No,Yes,No,No,No,Yes,No,Yes,No,Mostly,No,Yes,No,Sometime
+Cases,32,Male,32,Rural,High School,Single,Employed,Yes,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Mostly,Yes,Yes,Yes,Frequently
+Cases,32,Male,32,Rural,High School,Single,Employed,Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Mostly,Yes,Yes,No,Frequently
+Cases,32,Female,32,Rural,High School,Single,Employed,No,No,No,No,Yes,Yes,No,No,No,Yes,No,No,Mostly,No,No,No,Frequently
+Cases,33,Female,33,Rural,High School,Single,Employed,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Mostly,No,No,Yes,Frequently
+Cases,34,Female,34,Rural,High School,Single,Employed,No,No,No,No,Yes,No,No,No,No,No,No,No,Mostly,No,No,No,Frequently
+Cases,35,Male,35,Rural,High School,Single,Employed,No,No,No,No,Yes,No,Yes,No,No,No,No,Yes,Mostly,No,No,No,Frequently
+Cases,36,Male,36,Rural,High School,Single,Employed,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,No,No,Mostly,No,No,No,Frequently
+Cases,37,Male,37,Rural,High School,Single,Employed,No,Yes,No,Yes,No,No,No,Yes,Yes,Yes,No,No,Mostly,No,Yes,Yes,Frequently
+Cases,38,Male,38,Rural,High School,Single,Employed,Yes,Yes,No,No,Yes,No,No,No,No,No,Yes,Yes,Mostly,No,No,No,Frequently
+Cases,39,Male,39,Rural,High School,Single,Employed,No,No,No,No,No,Yes,No,No,Yes,Yes,No,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,40,Male,40,Rural,High School,Single,Employed,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,Mostly,No,No,No,Frequently
+Cases,41,Female,41,Rural,Illiterate or elementary,Single,Employed,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Mostly,No,Yes,Yes,Frequently
+Cases,42,Female,42,Rural,Middle school,Single,Employed,No,Yes,No,No,No,No,Yes,Yes,No,No,No,Yes,Mostly,No,No,Yes,Frequently
+Cases,43,Female,43,Rural,Middle school,Single,Employed,No,No,No,No,No,No,No,No,No,No,No,No,Mostly,No,No,No,Frequently
+Cases,44,Male,44,Rural,Middle school,Single,Employed,No,No,Yes,No,No,No,No,No,No,No,Yes,No,Mostly,No,No,Yes,Frequently
+Cases,45,Male,45,Rural,Middle school,Single,Employed,No,No,No,No,No,No,No,No,Yes,Yes,No,No,Mostly,Yes,No,No,Frequently
+Cases,46,Male,46,Urban,Middle school,Single,Employed,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,No,Mostly,No,No,Yes,Frequently
+Cases,47,Male,47,Urban,Middle school,Single,Employed,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,Mostly,Yes,No,Yes,Frequently
+Cases,48,Male,48,Urban,Middle school,Single,Employed,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No,No,No,Mostly,No,Yes,No,Frequently
+Cases,49,Male,49,Urban,Middle school,Single,Employed,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Mostly,No,Yes,No,Frequently
+Controls,78,Male,78,Rural,Middle school,Single,Employed,No,Yes,No,No,Yes,No,Yes,Yes,No,No,No,No,Mostly,Yes,Yes,No,Frequently
+Cases,25,Male,25,Rural,Middle school,Married,Employed,Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Sometimes,No,Yes,No,Frequently
+Cases,26,Female,26,Rural,Middle school,Married,Employed,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Sometimes,No,No,No,Frequently
+Cases,27,Female,27,Rural,Middle school,Married,Employed,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Sometimes,No,Yes,No,Frequently
+Controls,80,Female,80,Rural,Middle school,Married,Employed,No,No,Yes,Yes,No,No,No,No,Yes,Yes,No,No,Sometimes,No,No,No,Rarely
+Controls,77,Male,33,Rural,Middle school,Married,Employed,No,Yes,No,No,No,No,Yes,No,Yes,Yes,No,No,Sometimes,No,No,No,Rarely
+Controls,72,Male,33,Rural,Middle school,Married,Employed,No,No,No,Yes,Yes,No,No,No,Yes,Yes,No,No,Sometimes,No,No,Yes,Rarely
+Controls,72,Male,33,Urban,Illiterate or elementary,Married,Employed,No,No,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Sometimes,No,No,No,Rarely
+Controls,72,Male,33,Urban,Illiterate or elementary,Married,Employed,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Sometimes,No,No,No,Rarely
+Controls,72,Male,33,Urban,Illiterate or elementary,Married,Employed,No,No,No,No,Yes,Yes,No,No,Yes,Yes,No,Yes,Sometimes,No,Yes,Yes,Rarely
+Cases,21,Male,80,Urban,College,Married,Employed,No,No,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Sometimes,No,Yes,Yes,Rarely
+Cases,22,Female,70,Rural,College,Married,Employed,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Sometimes,No,No,Yes,Rarely
+Cases,24,Male,66,Rural,College,Married,Unemployed,Yes,No,No,No,No,No,No,No,Yes,No,No,No,Sometimes,No,Yes,No,Rarely
+Cases,25,Male,69,Rural,College,Married,Unemployed,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,No,Sometimes,Yes,No,Yes,Never
+Cases,26,Female,26,Rural,College,Married,Unemployed,Yes,Yes,No,No,Yes,Yes,No,No,No,No,Yes,No,Sometimes,Yes,Yes,Yes,Never
+Controls,71,Female,71,Urban,College,Married,Unemployed,Yes,No,No,No,No,No,No,No,Yes,No,No,No,Sometimes,No,No,No,Never
+Controls,72,Female,72,Urban,College,Married,Unemployed,No,No,No,No,Yes,No,No,No,Yes,No,Yes,No,Sometimes,No,Yes,No,Never
+Controls,73,Male,73,Urban,College,Married,Unemployed,No,No,No,No,Yes,No,No,No,Yes,No,No,No,Sometimes,No,Yes,No,Never
+Controls,74,Male,74,Urban,College,Married,Unemployed,No,No,No,No,No,No,Yes,No,Yes,Yes,No,No,Seldom,No,Yes,Yes,Never
+Controls,75,Male,75,Rural,College,Single,Unemployed,No,No,No,No,Yes,No,No,No,Yes,No,No,Yes,Seldom,No,Yes,Yes,Sometime
+Controls,76,Male,76,Rural,College,Single,Unemployed,No,No,No,No,Yes,No,Yes,No,Yes,Yes,No,No,Seldom,No,No,No,Sometime
+Controls,77,Male,77,Urban,College,Single,Unemployed,No,No,No,No,Yes,No,No,No,No,No,Yes,Yes,Not at all,No,No,Yes,Sometime
+Controls,78,Male,78,Urban,College,Single,Unemployed,No,Yes,Yes,No,Yes,Yes,No,No,Yes,No,No,No,Not at all,No,No,No,Sometime
+Controls,79,Female,79,Rural,College,Single,Unemployed,No,No,No,No,Yes,No,No,Yes,Yes,No,No,No,Not at all,Yes,No,No,Sometime
+Cases,55,Female,55,Rural,College,Married,Unemployed,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Mostly,No,Yes,No,Frequently
+Cases,56,Female,56,Rural,College,Married,Unemployed,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Mostly,No,Yes,Yes,Frequently
+Cases,57,Female,57,Rural,College,Married,Unemployed,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,58,Female,58,Rural,College,Married,Unemployed,No,No,No,No,Yes,No,No,No,No,No,Yes,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,59,Female,59,Urban,College,Married,Unemployed,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,60,Female,60,Urban,College,Married,Unemployed,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No,Mostly,No,No,No,Frequently
+Cases,61,Male,61,Urban,High School,Married,Unemployed,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Mostly,No,No,Yes,Frequently
+Cases,62,Male,62,Urban,High School,Single,Unemployed,No,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,No,Mostly,No,No,Yes,Frequently
+Cases,63,Male,63,Rural,High School,Single,Unemployed,No,Yes,No,No,No,No,No,No,Yes,Yes,No,No,Mostly,No,Yes,Yes,Frequently
+Cases,64,Male,64,Rural,High School,Single,Unemployed,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Mostly,No,Yes,No,Frequently
+Cases,65,Male,65,Rural,High School,Single,Unemployed,No,No,No,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,66,Male,66,Rural,High School,Single,Unemployed,No,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Mostly,No,No,No,Frequently
+Cases,67,Male,67,Urban,High School,Single,Unemployed,No,Yes,No,No,Yes,Yes,No,No,No,No,No,No,Mostly,No,No,No,Frequently
+Cases,68,Male,68,Urban,High School,Single,Unemployed,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,No,No,Mostly,No,No,Yes,Frequently
+Cases,69,Male,69,Urban,High School,Single,Unemployed,No,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,No,Mostly,No,Yes,No,Frequently
+Cases,70,Male,70,Urban,High School,Single,Unemployed,Yes,Yes,No,No,No,No,Yes,No,No,No,No,No,Mostly,No,No,Yes,Frequently
+Cases,71,Male,71,Rural,High School,Single,Unemployed,No,No,No,No,No,No,No,No,Yes,Yes,No,No,Mostly,No,No,No,Frequently
+Cases,72,Male,72,Rural,High School,Single,Unemployed,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Mostly,No,Yes,No,Frequently
+Cases,73,Female,73,Urban,High School,Single,Unemployed,No,No,No,Yes,Yes,No,No,No,No,Yes,No,No,Mostly,No,Yes,Yes,Frequently
+Cases,74,Female,74,Urban,High School,Married,Unemployed,No,No,No,No,No,No,No,No,Yes,Yes,No,No,Mostly,No,No,Yes,Frequently
+Controls,30,Female,30,Rural,High School,Married,Unemployed,No,No,Yes,No,Yes,Yes,No,No,No,No,No,No,Not at all,No,Yes,No,Rarely
+Controls,31,Male,31,Urban,Illiterate or elementary,Married,Unemployed,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No,No,No,Not at all,No,No,Yes,Rarely
+Controls,32,Male,32,Rural,Middle school,Married,Unemployed,No,No,No,No,No,Yes,No,No,Yes,No,Yes,No,Not at all,No,No,No,Rarely
+Controls,33,Male,33,Rural,Middle school,Married,Unemployed,No,No,Yes,No,Yes,Yes,No,No,No,No,Yes,No,Not at all,No,No,Yes,Rarely
+Controls,34,Male,34,Urban,Middle school,Married,Unemployed,Yes,No,No,No,No,No,No,No,No,Yes,No,Yes,Not at all,No,No,Yes,Rarely
+Controls,35,Female,35,Urban,Middle school,Married,Unemployed,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Not at all,No,No,Yes,Rarely
+Controls,36,Female,36,Rural,Middle school,Single,Unemployed,No,No,No,No,Yes,No,Yes,No,No,No,No,No,Not at all,Yes,No,Yes,Rarely
+Controls,78,Male,78,Rural,Middle school,Single,Unemployed,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Not at all,No,No,Yes,Rarely
+Controls,79,Male,79,Urban,Illiterate or elementary,Single,Unemployed,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Not at all,No,No,Yes,Rarely
+Controls,47,Male,47,Rural,Middle school,Single,Unemployed,No,No,No,No,Yes,Yes,Yes,No,Yes,No,No,No,Not at all,Yes,No,No,Rarely
+Controls,47,Male,47,Rural,Middle school,Single,Unemployed,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Not at all,Yes,Yes,Yes,Rarely
+Controls,47,Female,47,Urban,Middle school,Single,Unemployed,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Not at all,No,No,Yes,Rarely
+Controls,47,Female,47,Urban,Middle school,Single,Unemployed,Yes,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Not at all,Yes,Yes,Yes,Rarely
+Controls,47,Male,47,Rural,Illiterate or elementary,Single,Unemployed,Yes,No,No,No,Yes,Yes,No,No,Yes,No,No,No,Not at all,Yes,No,Yes,Rarely
+Controls,47,Male,47,Urban,Middle school,Single,Unemployed,No,Yes,No,No,No,No,No,No,Yes,Yes,No,Yes,Not at all,Yes,Yes,No,Rarely
+Controls,47,Male,47,Rural,Middle school,Single,Unemployed,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Yes,No,Not at all,No,No,No,Rarely
+Controls,47,Male,47,Rural,Middle school,Single,Unemployed,Yes,No,No,Yes,No,No,No,No,No,No,No,No,Not at all,No,No,No,Rarely
+Controls,47,Male,47,Urban,Middle school,Single,Unemployed,No,No,No,No,No,No,No,No,No,Yes,Yes,No,Not at all,Yes,Yes,Yes,Rarely
+Controls,47,Male,47,Urban,Middle school,Married,Unemployed,No,No,Yes,Yes,No,No,No,No,Yes,Yes,No,Yes,Not at all,No,No,Yes,Rarely
+Controls,47,Male,47,Rural,Middle school,Married,Unemployed,No,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Not at all,No,Yes,Yes,Rarely
+Cases,60,Male,66,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,Mostly,No,No,Yes,Frequently
+Cases,59,Male,66,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,No,No,Yes,No,No,No,No,Yes,Yes,No,Mostly,No,No,No,Frequently
+Cases,58,Male,67,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Mostly,Yes,Yes,No,Frequently
+Cases,57,Male,68,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Mostly,No,No,No,Frequently
+Cases,56,Male,69,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,Yes,No,No,No,Yes,No,No,Yes,Mostly,No,No,No,Frequently
+Cases,55,Male,70,Rural,Illiterate or elementary,Single,Unemployed,Yes,Yes,No,No,Yes,No,No,Yes,No,Yes,Yes,Yes,Mostly,Yes,No,No,Frequently
+Cases,54,Male,71,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,Mostly,No,No,No,Frequently
+Cases,53,Male,72,Rural,Illiterate or elementary,Single,Unemployed,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Mostly,No,No,Yes,Frequently
+Cases,52,Male,73,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,Yes,No,No,No,Yes,No,No,Yes,Mostly,No,No,No,Frequently
+Cases,51,Male,74,Rural,Illiterate or elementary,Single,Unemployed,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,Mostly,No,No,No,Frequently
+Cases,50,Male,75,Rural,Illiterate or elementary,Single,Unemployed,Yes,Yes,Yes,No,No,No,No,No,No,Yes,No,Yes,Mostly,No,No,No,Frequently
+Cases,49,Male,76,Rural,Illiterate or elementary,Single,Unemployed,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Mostly,No,No,No,Frequently
+Cases,48,Male,77,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,Yes,Yes,No,No,No,No,No,No,Mostly,No,No,No,Frequently
+Cases,47,Male,78,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Mostly,No,No,No,Frequently
+Cases,46,Male,79,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,Yes,No,No,No,No,No,No,Yes,Mostly,Yes,No,No,Frequently
+Cases,45,Male,80,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,Yes,No,Yes,No,Yes,No,No,No,Mostly,No,No,No,Frequently
+Cases,44,Male,81,Rural,Illiterate or elementary,Single,Unemployed,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Mostly,No,No,No,Frequently
+Cases,43,Male,82,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,No,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Mostly,No,Yes,No,Frequently
+Cases,42,Male,83,Rural,Illiterate or elementary,Single,Unemployed,Yes,Yes,No,No,Yes,,No,No,No,No,No,Yes,Mostly,Yes,Yes,No,Frequently
+Cases,41,Male,84,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,No,Yes,No,No,Yes,No,No,No,Mostly,No,No,Yes,Frequently
+Cases,40,Male,85,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Mostly,No,No,No,Frequently
+Cases,39,Male,86,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Mostly,Yes,No,No,Frequently
+Cases,38,Male,87,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,No,No,No,No,Yes,Yes,No,No,No,No,Mostly,Yes,Yes,No,Frequently
+Cases,37,Male,88,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,No,No,No,No,No,Yes,Yes,No,Mostly,Yes,No,No,Frequently
+Cases,36,Male,89,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,No,No,No,No,No,Yes,Yes,No,Yes,Mostly,No,Yes,Yes,Frequently
+Cases,35,Male,90,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Mostly,No,No,No,Frequently
+Cases,34,Male,91,Rural,Illiterate or elementary,Single,Unemployed,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,Mostly,No,No,No,Frequently
+Cases,33,Male,92,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,No,Mostly,No,No,No,Frequently
+Cases,32,Male,93,Rural,Illiterate or elementary,Single,Unemployed,Yes,Yes,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Mostly,No,No,No,Frequently
+Cases,31,Male,94,Rural,Illiterate or elementary,Single,Unemployed,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Mostly,Yes,Yes,Yes,Frequently
+Cases,30,Male,95,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,No,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Mostly,Yes,Yes,Yes,Frequently
+Cases,29,Male,96,Rural,Illiterate or elementary,Single,Unemployed,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,Mostly,Yes,Yes,Yes,Frequently
+Cases,28,Male,97,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,27,Male,98,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Mostly,Yes,Yes,Yes,Frequently
+Cases,26,Male,99,Rural,Illiterate or elementary,Single,Unemployed,No,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes,Mostly,Yes,Yes,Yes,Frequently
+Cases,25,Male,100,Rural,Illiterate or elementary,Single,Unemployed,No,Yes,No,No,No,No,Yes,No,Yes,Yes,No,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,24,Male,101,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,Yes,No,No,No,No,Yes,Yes,No,No,Mostly,Yes,Yes,Yes,Frequently
+Cases,23,Male,102,Rural,Illiterate or elementary,Single,Unemployed,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Mostly,Yes,Yes,Yes,Frequently
