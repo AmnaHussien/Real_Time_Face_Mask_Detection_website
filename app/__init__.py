@@ -8,5 +8,6 @@ def create_app():
     #import and register the blueprint in routes file
     from .routes import main
     app.register_blueprint(main)
+    app.config.from_pyfile('config.py')
 
     return app

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../static/index.css"/>
+    <title>Real-Time Face Mask Detection</title>
+
+</head>
+<body>
+<nav class="navbar" align="center">
+    {% block nav %}
+    <a class="navbar-logo" align="center"> Real Time Face Mask Detection</a>
+    
+    {% endblock %}
+</nav>
+    <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" id="video-feed" alt="Live Video Feed">
+    </div>
+    <script src="{{ url_for('static', filename='/static/script.js') }}"></script>      
+      <div class="container" align="center">{% block content %} {% endblock %}</div>
+</body>
+
+
+</html>
