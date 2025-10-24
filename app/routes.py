@@ -5,8 +5,8 @@ from video_stream import generate_frames
 main = Blueprint('main', __name__)
 
 @main.route('/')
-def index():
-    return render_template('index.html')
+def home():
+    return render_template('home.html')
 #route to stream video
 @main.route('/video_feed')
 def video_feed():
@@ -14,6 +14,12 @@ def video_feed():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 #recive image from browser  and perform some operation then return 
-@main.route('/predict')
+@main.route('/detect')
 def predict():
-    return None
+    return  render_template('detect.html')
+@main.route('/results')
+def results():
+    return render_template('results.html')
+@main.route('/about')
+def about():
+    return render_template('about.html')
