@@ -1,21 +1,20 @@
+import unittest
 from app import app
 
-def test_existing_routes():
-    tester = app.test_client()
+class FlaskRoutesTest(unittest.TestCase):
+    def setUp(self):
+        # creates a test client
+        self.app = app.test_client()
+        self.app.testing = True
 
-    # Test Home Route
-    response = tester.get('/')
-    print("Home:", response.status_code, response.data[:50])
+    def test_home_page(self):
+        response = self.app.get('/')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Face Mask Detection', response.data)
 
-    # Test Detect Route
-    response = tester.get('/detect')
-    print("Detect:", response.status_code, response.data[:50])
+    def test_video_feed(self):
+        response = self.app.get('/video_feed')
+        self.assertEqual(response.status_code, 200)
 
-    # Test Unfinished Routes (should give 404)
-    response = tester.get('/results')
-    print("Results:", response.status_code)
-    response = tester.get('/about')
-    print("About:", response.status_code)
-
-if __name__ == "__main__":
-    test_existing_routes()
+if __name__ == '__main__':
+    unittest.main()
