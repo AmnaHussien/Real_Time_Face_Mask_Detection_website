@@ -2,6 +2,8 @@ from flask import Flask
 
 #initialize flask application ando also register Blueprint
 
+#load trained labels
+
 def create_app():
     #get an object from flask framework
     app = Flask(__name__)
