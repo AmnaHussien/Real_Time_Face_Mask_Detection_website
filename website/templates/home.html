@@ -4,20 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Home - Face Mask Detection</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 </head>
 <body>
-  <nav>
+  <nav class="navbar" align="center">
     {% block nav %}
-    <a href="/">Home</a>
-    <a href="/detect">Detect</a>
-    <a href="/results">Results</a>
-    <a href="/about">About</a>
+    <div class="navbar-container">
+      <a href="/" id="base">Home</a>
+      <a href="/detect" id="base">Detect</a>
+      <a href="/results" id="base">Results</a>
+      <a href="/about" id="base">About</a>
+      </div>
     {% endblock %}
   </nav>
 
   <section class="content">
-    {% block section %}
+    {% block content %}
     <h1>Real-Time Face Mask Detection</h1>
     <p>Detect face masks instantly using your webcam.</p>
     <a href="/detect" class="btn">Start Detection</a>

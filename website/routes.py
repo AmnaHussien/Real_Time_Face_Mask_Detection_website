@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, Response, Blueprint
-from video_stream import generate_frames
+#generate_frames in video_stream
+#ofrom website import generate_frames
 #import label var from model file
-from ..preprocessed import model_predict, Labels
+#ofrom ..preprocessed import model_predict, Labels
 import json
 
 #parameters(main== blueprint name, __name__ = import name)

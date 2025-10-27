@@ -6,7 +6,7 @@ from flask import Flask
 
 def create_app():
     #get an object from flask framework
-    app = Flask(__name__)
+    app = Flask(__name__ , template_folder='templates', static_folder='static')
     #import and register the blueprint in routes file
     from .routes import main
     app.register_blueprint(main)

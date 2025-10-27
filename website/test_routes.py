@@ -1,5 +1,5 @@
 import unittest
-from app import app
+from website import app
 
 class FlaskRoutesTest(unittest.TestCase):
     def setUp(self):

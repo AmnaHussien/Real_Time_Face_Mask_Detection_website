@@ -1,0 +1,57 @@
+{% extends "home.html" %}
+{% block title %} About {% endblock %}
+{% block content %}
+
+<form method="POST">
+    <header class="header">
+            <h1>About Us</h1>
+            <p> We are a team of developers and engineers passionate about using technology to improve 
+              public safety. Our work focuses on blending artificial intelligence and web technologies to
+              create real-time detection systems that can be easily used in everyday environments.
+            </p>
+            <a href="{{ url_for('main.home') }}" id="button-land-1" align="center">Get Started</a> 
+            
+
+    </header>
+    <section class="about-section">
+        <div class="content">
+            <h2>What We Do? </h2>
+            <br>
+            <p>We develop a real-time face mask detection system that uses computer vision and machine learning 
+              to identify whether a person is wearing a mask. Through a simple web interface built with Flask, 
+              users can access live webcam detection and see results instantly.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to support community health and safety by providing intelligent, accessible, and 
+                efficient AI solutions. We aim to make real-time detection tools that are accurate, lightweight, 
+                and suitable for real-world use in schools, workplaces, and public areas.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Why Choose Us?</h2>
+            <p>
+            Our system stands out for its simplicity, accuracy, and speed. It runs directly in a web browser, \
+            equires minimal setup, and is backed by a well-trained detection model. We focus on creating practical, 
+            user-friendly applications that make AI technology approachable for everyone.
+            </p>
+        </div>
+        <div class="content">
+            <h2>Join Our Community</h2>
+            <p>
+                We invite developers, researchers, and technology enthusiasts to join us in improving and expanding 
+                this project. Together, we can explore new ideas, share knowledge,
+                 and continue building innovative tools that make a positive impact on society.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Contact Us at :<a href="mailto:amnahussin88@gmail.com">amnahussin88@gmail.com</a></p>
+        <a href="mailto:aseelemad199978@gmail.com">aseelemad199978@gmail.com</a>
+        <a href="mailto:reem.bek@outlook.com">reem.bek@outlook.com</a>
+        <p id="copy">&copy; 2024 Event Manager. All Rights Reserved. </p>
+    </footer>
+</form>
+{% endblock %}

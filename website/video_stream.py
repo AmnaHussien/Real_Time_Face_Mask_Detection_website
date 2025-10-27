@@ -1,6 +1,5 @@
-from model.mask_model import detect_mask
-#import mask model from model folder
-#Handle real-time video capture with OpenCV
+# from model.mask_model import detect_mask
+# Handle real-time video capture with OpenCV
 
 # def generate_frames():
 #     frame = detect_mask(frame)
