@@ -6,6 +6,16 @@ body {
   text-align: center;
 }
 
+.navbar
+{
+    background-color: rgb(90, 3, 90); padding:20px 20px;
+} 
+
+.navbar-container
+{
+    display:flex;
+    /* justify-content: space-between; */
+}
 nav {
   background-color: #05223a;
   padding: 15px;
@@ -20,7 +30,9 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
+#base {
+    background-color:#2c3e50;
+}
 .content {
   padding: 50px;
 }

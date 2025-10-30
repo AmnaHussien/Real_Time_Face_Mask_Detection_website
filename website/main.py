@@ -1,4 +1,4 @@
-from website import create_app
+from . import create_app
 #improt thecreate app fuction from app module(packege)
 
 app = create_app()

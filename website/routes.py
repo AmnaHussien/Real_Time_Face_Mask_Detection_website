@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, Response, Blueprint
 #import label var from model file
 #ofrom ..preprocessed import model_predict, Labels
 import json
-
+from website.video_stream import generate_frames
 #parameters(main== blueprint name, __name__ = import name)
 main = Blueprint('main', __name__)
 
@@ -19,32 +19,33 @@ def video_feed():
 
 #recive image from browser  and perform some operation then return 
 @main.route('/detect')
-def predict():
+def detect():
     """Handle real-time detection requests from the browser."""
     #recive image from browser
-    data = request.get_json()
-    image_base64 = data['image']
+    # data = request.get_json()
+    # image_base64 = data['image']
 
     # Decode image from base64
     #convert base64 to binary image data
-    image_bytes = base64.b64decode(image_base64.split(',')[1])
+    # image_bytes = base64.b64decode(image_base64.split(',')[1])
     #open it as image and ensure color mode is correct
-    img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
+    # img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
     #rezie the image
-    img = img.resize((224, 224))
+    # img = img.resize((224, 224))
     #convert it to np array scale pixel values to 0,1 adds batch dim to be ready for prediction
-    img_array = np.expand_dims(np.array(img) / 255.0, axis=0)
+    # img_array = np.expand_dims(np.array(img) / 255.0, axis=0)
 
     # Run prediction
-    result = model_predict(img_array)
-    label = result['label']
-    confidence = result['confidence']
+    # result = model_predict(img_array)
+    # label = result['label']
+    # confidence = result['confidence']
 
-    return jsonify({
-        'label': label,
-        'confidence': confidence,
-        'status': 'known' if label in LABELS else 'unknown'
-    })
+    # return jsonify({
+    #     'label': label,
+    #     'confidence': confidence,
+    #     'status': 'known' if label in LABELS else 'unknown'
+    # })
+    return render_template('detect.html')
 @main.route('/results')
 def results():
     return render_template('results.html')
