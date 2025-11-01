@@ -8,7 +8,8 @@ body {
 
 .navbar
 {
-    background-color: rgb(90, 3, 90); padding:20px 20px;
+    background-color: rgb(90, 3, 90); padding:20px 20px; 
+    margin: 0px 0px;
 } 
 
 .navbar-container
@@ -99,7 +100,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+section .content h1{
+    color: black;
+    padding: 0px 0px;;
+    margin: 0px 0px;;
+}
 .add
 {
     color: rgb(65, 4, 65);

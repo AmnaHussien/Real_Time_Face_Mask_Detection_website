@@ -18,7 +18,7 @@ import os
 
 def initialize_models():
     # Path to the face detection model files
-    face_model_path = r"C:/Users/User/Desktop/Amna/Python/Flaskintroduction/Real_Time_Face_Mask_Detection_website/Face_Mask_Detection/face_detector"
+    face_model_path = r"C:/Users/User/Desktop/Amna/Python/Flaskintroduction/Real_Time_Face_Mask_Detection_website/Face_Mask_Detection_backup/face_detector"
 
     # Prototxt file defines the model architecture
     # Caffe model file contains the pre-trained weights
@@ -30,7 +30,7 @@ def initialize_models():
     face_detector = cv2.dnn.readNet(prototxt, weights)
     base_path = r"C:/Users/User/Desktop/Amna/Python/Flaskintroduction/Real_Time_Face_Mask_Detection_website/"
 
-    mask_model_path=os.path.join(base_path, "Face_Mask_Detection", "mask_detector.model")
+    mask_model_path=os.path.join(base_path, "Face_Mask_Detection_backup", "mask_detector.model")
     # Load the pre-trained face mask detection model
     mask_model = load_model(mask_model_path)
 

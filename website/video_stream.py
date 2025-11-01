@@ -2,7 +2,7 @@ import cv2, sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import numpy as np
 from tensorflow.keras.models import load_model
-from Face_Mask_Detection.detect_mask_video import mask_prediction, initialize_models
+from Face_Mask_Detection_backup.detect_mask_video import mask_prediction, initialize_models
 
 
 face_detector, mask_model = initialize_models()
