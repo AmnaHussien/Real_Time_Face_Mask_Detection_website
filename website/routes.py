@@ -15,7 +15,7 @@ def home():
 @main.route('/video_feed')
 def video_feed():
     #integrate generator from video_stream.py file
-    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=image_frame')
 
 #recive image from browser  and perform some operation then return 
 @main.route('/detect')
