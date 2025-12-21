@@ -23,5 +23,6 @@
       if (stream) {
         stream.getTracks().forEach(track => track.stop());
         video.srcObject = null;
+        stream = null;
       }
     };

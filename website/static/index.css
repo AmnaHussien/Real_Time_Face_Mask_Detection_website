@@ -38,35 +38,6 @@ body {
   text-decoration: none;
 }
 
-/* #button-land-1
-{
-    display: inline-block;
-    text-align: center;
-    width:10%;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 1.2em;
-    background-color:rgb(90, 3, 90);
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-}  */
-/* #par
-{
-    font-size: larger;
-    font-family: sans-serif;
-}
-#para
-{
-    /* font-size: large;
-    font-family: sans-serif;
-    text-align: justify; */
-    /* line-height: 1.6; /* Line spacing */
-    /* margin-bottom: 20px; Space between paragraphs */
-    /* text-indent: 20px; Indent first line */
-    /* word-wrap: break-word; Handle long words */
-/* } */ 
-
 .header
 {
     max-width: 300pxs;
@@ -128,6 +99,12 @@ section .content h1{
     text-align: justify;
     color: #1d1818;
 }
+#parg {
+     font-size: 21px;
+    
+     color: #1d1818;
+}
+
 .footer
 {
     text-align: center;
@@ -152,4 +129,57 @@ section .content h1{
 
 .footer a:hover {
     text-decoration: underline;
+}
+/*  result page*/
+.resultcontent {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f9fa; 
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Heading styling */
+.resultcontent h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #333;
+  position: relative;
+}
+
+.resultcontent h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* List styling */
+.resultcontent ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resultcontent ul li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #555;
+  border-left: 5px solid #007bff;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.resultcontent ul li:hover {
+  background-color: #e9f2ff;
+  transform: translateX(5px);
+  border-left-color: #0056b3;
 }
