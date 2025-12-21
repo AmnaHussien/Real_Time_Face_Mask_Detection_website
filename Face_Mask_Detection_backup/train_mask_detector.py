@@ -29,8 +29,9 @@ BS = 32
 DIRECTORY = r"C:\Users\User\Desktop\Amna\Python\Flaskintroduction\Face_Mask_Detection\Face-Mask-Detection\dataset"
 CATEGORIES = ["with_mask", "without_mask"]
 
-# grab the list of images in our dataset directory, then initialize
-# the list of data (i.e., images) and class images
+# Load images from the dataset directory, resize them to 224x224,
+# preprocess them for MobileNetV2, and store in lists:
+# 'data' for images and 'labels' for their corresponding classes.
 print("[INFO] loading images...")
 
 data = []
@@ -122,17 +123,3 @@ print(classification_report(testY.argmax(axis=1), predIdxs,
 # serialize the model to disk
 print("[INFO] saving mask detector model...")
 model.save("mask_detector.model", save_format="h5")
-
-# plot the training loss and accuracy
-N = EPOCHS
-plt.style.use("ggplot")
-plt.figure()
-plt.plot(np.arange(0, N), H.history["loss"], label="train_loss")
-plt.plot(np.arange(0, N), H.history["val_loss"], label="val_loss")
-plt.plot(np.arange(0, N), H.history["accuracy"], label="train_acc")
-plt.plot(np.arange(0, N), H.history["val_accuracy"], label="val_acc")
-plt.title("Training Loss and Accuracy")
-plt.xlabel("Epoch #")
-plt.ylabel("Loss/Accuracy")
-plt.legend(loc="lower left")
-plt.savefig("plot.png")

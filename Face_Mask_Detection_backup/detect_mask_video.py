@@ -1,9 +1,3 @@
-# Import required libraries
-# keras: for loading and preprocessing the mask detection model
-# imutils: for easier camera and frame handling
-# cv2: OpenCV library for image and video processing
-# numpy: for mathematical operations and arrays
-# os, time: for file paths and timing
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model

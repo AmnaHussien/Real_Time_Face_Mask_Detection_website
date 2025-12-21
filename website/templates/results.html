@@ -4,9 +4,9 @@
   <section class="content">
     <h1>Detection Results</h1>
     <ul>
-      <li>Total Detections: 52</li>
-      <li>Masked Faces: 45</li>
-      <li>Unmasked Faces: 7</li>
+      <li>Total Detections: {{ total_images }}</li>
+      <li>Masked Faces: {{ with_mask }}</li>
+      <li>Unmasked Faces: {{ without_mask }}</li>
     </ul>
   </section>
 {% endblock %}

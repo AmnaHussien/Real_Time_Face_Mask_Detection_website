@@ -6,15 +6,7 @@ from Face_Mask_Detection_backup.detect_mask_video import mask_prediction, initia
 
 
 face_detector, mask_model = initialize_models()
-# Load the serialized face detector model
-# faceNet = cv2.dnn.readNet(
-#     "C:/Users/User/Desktop/Amna/Python/Flaskintroduction/Face_Mask_Detection/Face-Mask-Detection/face_detector/deploy.prototxt" ,
-#     "C:/Users/User/Desktop/Amna/Python/Flaskintroduction/Face_Mask_Detection/Face-Mask-Detection/face_detector/res10_300x300_ssd_iter_140000.caffemodel"
-# )
 
-# Load the face mask detector model
-# maskNet = load_model("Face_Mask_Detection/mask_detector.model")
-# Start webcam
 camera = cv2.VideoCapture(0)
 
 def generate_frames():
@@ -32,8 +24,8 @@ def generate_frames():
             (mask, without_mask) = pred  # probabilities for each class
 
             # Determine the label and color to display
-            label = "Wearing Mask" if mask > without_mask else "Without Mask"
-            color = (0, 255, 0) if label == "Wearing Mask" else (0, 0, 255)
+            label = "With Mask" if mask > without_mask else "Without Mask"
+            color = (0, 255, 0) if label == "With Mask" else (0, 0, 255)
 
             # Draw label and rectangle around the face
             cv2.putText(image_frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
